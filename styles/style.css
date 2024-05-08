@@ -11,7 +11,7 @@ html {
 .page {
   inline-size: 1200px;
   block-size: 100%;
-  margin: auto;
+  margin: 0 auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -19,7 +19,7 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  
   /*padding: 133px 30px;*/
 }
 
@@ -103,6 +103,7 @@ ol {
   display: flex;
   flex-direction: row;
   justify-content: start;
+  padding-top: 2px;
 }
 
 .content__video-card-thumbnail {
@@ -143,8 +144,8 @@ ol {
   font-family: Fira Sans Condensed;
   font-size: 18px;
   font-weight: 400;
-  margin-bottom: 5px;
-  margin-left: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
 }
 
 .title, .content__accent {
@@ -154,7 +155,7 @@ ol {
   text-align: left;
   line-height: 70.5px;
   text-transform: uppercase;
-
+  padding-top: 6px; 
 }
 
 .content__accent {
