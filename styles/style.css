@@ -155,7 +155,7 @@ ol {
   margin: 1px auto;
 }
 
-.search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
